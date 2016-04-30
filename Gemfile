@@ -18,3 +18,8 @@ group :development do
   gem 'quiet_assets'
   gem 'rails_layout'
 end
+
+gem 'summernote-rails'
+gem "refile", require: "refile/rails"
+gem "refile-mini_magick"
+

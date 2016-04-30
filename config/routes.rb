@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  root to: 'visitors#index'
+  resources :articles
+  resources :images, only: [:create, :destroy]
+  root to: 'articles#index'
 end
