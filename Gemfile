@@ -19,7 +19,7 @@ group :development do
   gem 'rails_layout'
 end
 
-gem 'summernote-rails'
+gem 'trix'
 gem "refile", require: "refile/rails"
 gem "refile-mini_magick"
 
